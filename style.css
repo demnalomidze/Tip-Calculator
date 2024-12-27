@@ -1,0 +1,469 @@
+body {
+  background-color: rgb(215 239 239);
+  font-family: Space Mono;
+  margin: 0px;
+  padding: 0px;
+}
+
+.head {
+  letter-spacing: 10px;
+  color: #3f565e;
+  justify-content: center;
+  display: flex;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 18px 18px 0px 0px;
+  width: 100%;
+  margin-top: 10%;
+  padding-bottom: 25px;
+}
+
+.head-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-box-text {
+  font-size: 18px;
+  color: gray;
+  letter-spacing: 1px;
+}
+
+.first-input {
+  align-items: center;
+  display: flex;
+}
+
+.Dollar {
+  width: 20px;
+  height: 20px;
+  fill: gray;
+  position: absolute;
+  padding-left: 6px;
+}
+
+#price-field {
+  width: 287px;
+  height: 40px;
+  background-color: rgb(240 240 240);
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 23px;
+  padding-right: 10px;
+  color: #1a5654;
+  font-weight: 600;
+}
+
+.mid-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+}
+
+.mid-box-text {
+  font-size: 18px;
+  color: gray;
+  letter-spacing: 1px;
+}
+
+.mid-buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+
+.first {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00474b;
+  cursor: pointer;
+}
+
+.first:hover {
+  background-color: #9fe8df;
+}
+
+.first-text {
+  display: contents;
+  color: #fff;
+}
+
+.first-text:hover {
+  color: #00474b;
+}
+
+.second {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00474b;
+  cursor: pointer;
+}
+
+.second:hover {
+  background-color: #9fe8df;
+}
+
+.second-text {
+  display: contents;
+  color: #fff;
+}
+
+.second-text:hover {
+  color: #00474b;
+}
+
+.third {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00474b;
+  cursor: pointer;
+}
+
+.third:hover {
+  background-color: #9fe8df;
+}
+
+.third-text {
+  display: contents;
+  color: #fff;
+}
+
+.third-text:hover {
+  color: #00474b;
+}
+
+.fourth {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00474b;
+  cursor: pointer;
+}
+
+.fourth:hover {
+  background-color: #9fe8df;
+}
+
+.fourth-text {
+  display: contents;
+  color: #fff;
+}
+
+.fourth-text:hover {
+  color: #00474b;
+}
+
+.fifth {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00474b;
+  cursor: pointer;
+}
+
+.fifth:hover {
+  background-color: #9fe8df;
+}
+
+.fifth-text {
+  display: contents;
+  color: #fff;
+}
+
+.fifth-text:hover {
+  color: #00474b;
+}
+
+#sixth {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(240 240 240);
+  cursor: pointer;
+  color: #5f766e;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.middle-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+}
+
+.middle-box-text {
+  font-size: 18px;
+  color: gray;
+  letter-spacing: 1px;
+}
+
+.man-icon {
+  width: 20px;
+  height: 20px;
+  fill: gray;
+  position: absolute;
+  padding-left: 6px;
+}
+
+.middle-box-input {
+  align-items: center;
+  display: flex;
+}
+
+#number-field {
+  width: 287px;
+  height: 40px;
+  background-color: rgb(240 240 240);
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 23px;
+  padding-right: 10px;
+  color: #1a5654;
+  font-weight: 600;
+}
+
+.Calculate-box {
+  background-color: #00474b;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-inline: 8%;
+  margin-top: 7%;
+  padding-bottom: 25px;
+}
+
+.Calculate {
+  margin-top: 8%;
+}
+
+.Tip-amount {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Tip-amount-calculate {
+  font-size: 38px;
+  width: 96px;
+  height: 30px;
+  text-align: right;
+  color: #4cbab2;
+  background-color: #00474b;
+  fill: black;
+  border: none;
+}
+
+#Tip-amount-calculate::placeholder {
+  color: #4cbab2;
+}
+
+.Total {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Tip-amount-total {
+  font-size: 38px;
+  width: 96px;
+  height: 30px;
+  text-align: right;
+  color: #4cbab2;
+  background-color: #00474b;
+  border: none;
+}
+
+#Tip-amount-total::placeholder {
+  color: #4cbab2;
+}
+
+.text1 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.text1-1 {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #5f806a;
+}
+
+.text2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.text2-2 {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #5f806a;
+}
+
+.Reset {
+  width: 273px;
+  height: 40px;
+  background-color: #0d686d;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  margin-top: 8%;
+  cursor: pointer;
+}
+
+.Reset:hover {
+  background-color: #9fe8df;
+}
+
+.text3 {
+  font-size: 18px;
+  color: #1a5654;
+  display: contents;
+}
+
+/* Style for error messages */
+.error-message {
+  color: red; /* Dark red color */
+  font-size: 18px;
+  position: absolute; /* Absolute positioning */
+  top: -35px; /* Move the error message above the input */
+  width: 100%;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Make sure the input containers have relative positioning */
+.first-input,
+.middle-box-input {
+  position: relative; /* To allow absolute positioning of the error message */
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .head {
+    font-size: 40px;
+    letter-spacing: 15px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #fff;
+    border-radius: 18px;
+    width: 900px;
+    margin-top: 5%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .box-part1 {
+    flex: 1;
+    max-width: 50%;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    margin-left: 40px;
+  }
+
+  #price-field {
+    width: 355px;
+  }
+
+  #number-field {
+    width: 355px;
+  }
+
+  .head-box {
+    justify-content: flex-start;
+  }
+
+  .mid-box {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 7%;
+  }
+
+  .middle-box {
+    justify-content: flex-start;
+  }
+
+  .first {
+    width: 110px;
+  }
+
+  .second {
+    width: 110px;
+  }
+
+  .third {
+    width: 110px;
+  }
+
+  .fourth {
+    width: 110px;
+  }
+
+  .fifth {
+    width: 110px;
+  }
+
+  #sixth {
+    width: 110px;
+  }
+
+  .mid-buttons {
+    grid-template-columns: auto auto auto;
+  }
+
+  .Calculate-box {
+    flex: 1;
+    max-width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-inline: 4%;
+  }
+
+  .Calculate {
+    display: grid;
+    gap: 110px;
+  }
+}
